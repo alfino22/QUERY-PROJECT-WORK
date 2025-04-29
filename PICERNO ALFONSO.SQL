@@ -1,11 +1,11 @@
-id_autobus  	targa	        capacità	    stato
-1	          cp009sa          	56	     disponibile
-2	          na123da	          26	     disponibile
-3	          dx777ka	          16	     manutenzione
-4	          dz345hk	          56     	disponibile
-5	          fh324ji	          18      	revisione
-6	          da543hx          	26     	disponibile
-7	          tx543ff	          56      	disponibile
+id_autobus     	targa	        capacità	    stato
+1	             cp009sa          	56	     disponibile
+2	             na123da	          26	     disponibile
+3	             dx777ka	          16	     manutenzione
+4	             dz345hk	          56     	disponibile
+5	             fh324ji	          18      	revisione
+6	             da543hx          	26     	disponibile
+7	             tx543ff	          56      	disponibile
 
 
 Id_biglietto   	Data_emissione    	N_posto	    Id_prenotazione     	Costo
