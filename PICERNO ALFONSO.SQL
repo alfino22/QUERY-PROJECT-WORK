@@ -50,8 +50,8 @@ Id_passeggero	Nome	cognome	email	data_registrazione
 11	Elisa	Sesta	ggaa	03/01/2025
 12	Thereza	Settima	llaa	03/02/2025
 
-Id_prenotazione	Data_prenotazione	Numero_passeggeri	Id_passeggero	id_tratta	data_partenza	ora_partenza
-0	05/04/2024	1	3	1	07/04/2024	12:00
+Id_prenotazione	 Data_prenotazione n	Numero_passeggeri	 Id_passeggero	 id_tratta	 data_partenza	 ora_partenza
+0	                 05/04/2024          	1             	     3	              1	      07/04/2024	    12:00
 1	04/04/2024	2	1	1	07/04/2024	12:00
 2	03/04/2024	1	1	2	07/04/2024	09:00
 3	01/04/2024	2	2	1	08/04/2024	12:00
