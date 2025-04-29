@@ -100,6 +100,36 @@ FROM Tratta AS t
 WHERE t.luogo_partenza = [Inserisci città di partenza] 
   AND t.luogo_destinazione = [Inserisci città di arrivo];
 
+
+
+
+SELECT 
+          t.id_tratta,
+          t.Luogo_partenza,
+          t.Luogo_destinazione,
+          t.ora_partenza,
+          t.ora_arrivo,
+          a.targa,
+          a.capienza,
+    /* Numero di passeggeri già prenotati per quella tratta e data */
+    IFNULL(SUM(p.numero_passeggeri), 0) AS passeggeri_prenotati,
+    /* Posti ancora disponibili */
+    (a.capienza - IFNULL(SUM(p.numero_passeggeri), 0)) AS posti_disponibili
+FROM 
+       Tratta t
+               JOIN 
+                      Autobus a ON t.ID_autobus = a.id_autobus
+              LEFT JOIN 
+              prenotazioni p ON t.id_tratta = p.id_tratta AND p.data = [inserisci data]
+                AND   t.ora_partenza = [inserisci ora]
+       WHERE 
+                 t.id_tratta = [ID TRATTA]
+     GROUP BY 
+        t.id_tratta, t.luogo_partenza, t.luogo_destinazione, t.ora_partenza, t.ora_arrivo,   a.targa, a.capienza;
+
+
+
+
 /* Query N 2
 
 conta il numero di prenotazioni di un dato passeggero */
