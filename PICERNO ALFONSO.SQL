@@ -157,7 +157,7 @@ CREATE FUNCTION verifica_posti_disponibili(
     SET posti_disponibili = capienza - passeggeri_prenotati;
 
     RETURN posti_disponibili;
-END //
+END // */
 
 DELIMITER ;
 
