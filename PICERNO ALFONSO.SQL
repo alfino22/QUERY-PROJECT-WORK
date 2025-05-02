@@ -40,8 +40,8 @@ Id_passeggero	       Nome	    cognome	        email      	data_registrazione
 1	                   Elisa     	Dispari	       ggga	         07/01/2024
 2	                  Alfonso	    Primo	        dddd	         22/01/2024
 3	                  Nino	     Pari	        aaaa	         02/04/2024
-4	                   Mario	      Rossi	       ssss	         26/03/2024
-5	                   Ennio	     Sorus       	zzza	         04/02/2024
+4	                 Mario	      Rossi	       ssss	         26/03/2024
+5	                 Ennio	     Sorus       	zzza	         04/02/2024
 6	                  Luisa	      Flora	       qrtia        	09/01/2024
 7	                  Marco	      Secondo      	mnue	         02/01/2024
 8	              Aurelio	   Terzo	       ddaa	         16/01/2024
