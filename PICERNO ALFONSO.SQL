@@ -100,7 +100,8 @@ FROM Tratta AS t
 WHERE t.luogo_partenza = [Inserisci città di partenza] 
   AND t.luogo_destinazione = [Inserisci città di arrivo];
 
-/* QUERY N.2 */
+/* QUERY N.2 
+La query restituisce i posti disponibili per una data tratta*/
 
 
 SELECT 
@@ -176,7 +177,8 @@ c.nome =['inserire in nome del passeggero']
 GROUP BY (p.Id_passeggero);
 
 
-/* QUERY N 4 */
+/* QUERY N 4 
+La query restituisce il numero delle prenotazioni effettuate da un passeggero*/
 
 
 SELECT c.Id_passeggero, count(*) AS NUMERO_PRENOTAZIONI
