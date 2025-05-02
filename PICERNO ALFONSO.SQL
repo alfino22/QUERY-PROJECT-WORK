@@ -44,9 +44,9 @@ Id_passeggero	       Nome	    cognome	        email      	data_registrazione
 5	                   Ennio	     Sorus       	zzza	         04/02/2024
 6	                  Luisa	      Flora	       qrtia        	09/01/2024
 7	                  Marco	      Secondo      	mnue	         02/01/2024
-8	                 Aurelio	      Terzo	       ddaa	         16/01/2024
-9                  	Cesare      	Quarto      	ccaa         	11/01/2024
-10	                 Maria       	Quinta      	ffaa         	02/01/2024
+8	                 Aurelio	   Terzo	       ddaa	         16/01/2024
+9                  	Cesare     	Quarto      	ccaa         	11/01/2024
+10	                 Maria      	Quinta      	ffaa         	02/01/2024
 11	                Elisa	       Sesta	       ggaa	         03/01/2025
 12	                Thereza	     Settima	       llaa        	03/02/2025
 
