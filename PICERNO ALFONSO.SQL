@@ -159,7 +159,7 @@ CREATE FUNCTION verifica_posti_disponibili(
     RETURN posti_disponibili;
 END // 
 
-DELIMITER ;
+DELIMITER ; */
 
 
 
