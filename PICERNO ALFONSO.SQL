@@ -167,7 +167,7 @@ DELIMITER ;
 
 /* Query N 3
 
-conta il numero di prenotazioni di un dato passeggero */
+conta il numero di prenotazioni di un dato passeggero con la spesa */
 
 SELECT count(*) AS numero_prenotazioni
 FROM Passeggero AS c, Prenotazione AS p
