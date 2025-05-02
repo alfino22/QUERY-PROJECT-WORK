@@ -141,12 +141,12 @@ CREATE FUNCTION verifica_posti_disponibili(
     DECLARE posti_disponibili INT;
 
     // Si ottiene la capacità dell'autobus assegnato alla tratta 
-    SELECT a.capienza INTO capienza
+    SELECT a.capienza INTO capienza //
     FROM tratte t
     JOIN autobus a ON t.id_autobus = a.id_autobus
     WHERE t.id_tratta = id_tratta;
 
-    // Conta i passeggeri già prenotati per quella tratta, data e orario 
+    // Conta i passeggeri già prenotati per quella tratta, data e orario //
     SELECT IFNULL(SUM(p.numero_passeggeri), 0) INTO passeggeri_prenotati
     FROM prenotazioni p
     WHERE p.id_tratta = id_tratta
