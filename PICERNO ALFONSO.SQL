@@ -38,17 +38,17 @@ Id_biglietto   	Data_emissione    	N_posto	    Id_prenotazione     	Costo
 
 Id_passeggero	       Nome	    cognome	        email      	data_registrazione
 1	                   Elisa     	Dispari	       ggga	         07/01/2024
-2	                  Alfonso	     Primo	        dddd	         22/01/2024
-3	                    Nino	       Pari	        aaaa	         02/04/2024
-4	                   Mario	       Rossi	       ssss	         26/03/2024
-5	                   Ennio	       Sorus       	zzza	         04/02/2024
-6	                  Luisa	        Flora	       qrtia        	09/01/2024
-7	                  Marco	       Secondo      	mnue	         02/01/2024
-8	                 Aurelio	       Terzo	       ddaa	         16/01/2024
-9                  	Cesare       	Quarto      	ccaa         	11/01/2024
-10	                 Maria        	Quinta      	ffaa         	02/01/2024
-11	                Elisa	         Sesta	       ggaa	         03/01/2025
-12	                Thereza	      Settima	       llaa        	03/02/2025
+2	                  Alfonso	    Primo	        dddd	         22/01/2024
+3	                    Nino	     Pari	        aaaa	         02/04/2024
+4	                   Mario	      Rossi	       ssss	         26/03/2024
+5	                   Ennio	     Sorus       	zzza	         04/02/2024
+6	                  Luisa	      Flora	       qrtia        	09/01/2024
+7	                  Marco	      Secondo      	mnue	         02/01/2024
+8	                 Aurelio	      Terzo	       ddaa	         16/01/2024
+9                  	Cesare      	Quarto      	ccaa         	11/01/2024
+10	                 Maria       	Quinta      	ffaa         	02/01/2024
+11	                Elisa	       Sesta	       ggaa	         03/01/2025
+12	                Thereza	     Settima	       llaa        	03/02/2025
 
 Id_prenotazione	  Data_prenotazione n	Numero_passeggeri	 Id_passeggero	 id_tratta	 data_partenza	 ora_partenza
 0	                 05/04/2024          	1             	     3	              1	      07/04/2024	    12:00
