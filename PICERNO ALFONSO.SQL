@@ -38,7 +38,7 @@ Id_biglietto   	Data_emissione    	N_posto	    Id_prenotazione     	Costo
 
 Id_passeggero	       Nome	    cognome	        email      	data_registrazione
 1	                   Elisa     	Dispari	       ggga	         07/01/2024
-2	                  Alfonso	    Primo	        dddd	         22/01/2024
+2	             Alfonso	    Primo	        dddd	         22/01/2024
 3	                  Nino	     Pari	        aaaa	         02/04/2024
 4	                 Mario	      Rossi	       ssss	         26/03/2024
 5	                 Ennio	     Sorus       	zzza	         04/02/2024
