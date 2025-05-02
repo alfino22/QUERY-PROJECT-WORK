@@ -217,38 +217,4 @@ WHERE p.Id_prenotazione= b.Id_prenotazione
              and b.Id_biglietto=[inserire id biglietto];
 
 
-DELIMITER //
-
-CREATE FUNCTION verifica_posti_disponibili(
-    id_tratta INT,
-    data_prenotazione DATE,
-    ora_partenza TIME
-           ) RETURNS INT
-             DETERMINISTIC
- BEGIN
-    DECLARE capienza INT;
-    DECLARE passeggeri_prenotati INT;
-    DECLARE posti_disponibili INT;
-
-    /* Si ottiene la capacità dell'autobus assegnato alla tratta */
-    SELECT a.capienza INTO capienza 
-    FROM tratte t
-    JOIN autobus a ON t.id_autobus = a.id_autobus
-    WHERE t.id_tratta = id_tratta;
-
-    /* Conta i passeggeri già prenotati per quella tratta, data e orario */
-    SELECT IFNULL(SUM(p.numero_passeggeri), 0) INTO passeggeri_prenotati
-    FROM prenotazioni p
-    WHERE p.id_tratta = id_tratta
-      AND p.data = data_prenotazione
-      AND t.ora_partenza = ora_partenza;
-
-    -- Calcola i posti disponibili
-    SET posti_disponibili = capienza - passeggeri_prenotati;
-
-    RETURN posti_disponibili;
-END 
-
-DELIMITER ; 
-
 
